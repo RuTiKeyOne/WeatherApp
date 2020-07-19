@@ -1,0 +1,22 @@
+﻿<Window x:Class="Weather.View.MessageError"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Weather.View"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="MessageError"  Height="200" Width="300" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowStyle="None">
+    <Grid>
+        <Border>
+            <Border.Background>
+                <ImageBrush ImageSource="C:\Users\Dart\source\repos\WeatherApplication\Weather\Assets\Backgrounds\BackgroundError.jpg"></ImageBrush>
+            </Border.Background>
+            <Grid>
+                <Button Click="LogOffErrorWindow" Background="#673AB7" Foreground="#E5EFF6" Margin="15" Content="Log off"  Width="75" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="10"></Button>
+                <TextBlock x:Name ="TextBlockError" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FFFFFF" FontSize="20" FontWeight="Light" Text=""/>
+            </Grid>
+            
+        </Border>
+    </Grid>
+</Window>
