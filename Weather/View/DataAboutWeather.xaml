@@ -10,7 +10,7 @@
         <StackPanel >
             <Border Height="255" >
                 <Border.Background>
-                    <ImageBrush ImageSource="C:\Users\Dart\source\repos\WeatherApplication\Weather\Assets\Backgrounds\BackgroundCity.jpg"></ImageBrush>
+                    <ImageBrush ImageSource="/Assets/Backgrounds/BackgroundCity.jpg"></ImageBrush>
                 </Border.Background>
                 <UniformGrid Columns="1">
                     <Button x:Name="ButtonDataAboutWeather" Width="75" Height="30" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Content="Back" Click="CloseDataAboutWeather"></Button>

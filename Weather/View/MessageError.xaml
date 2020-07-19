@@ -10,7 +10,7 @@
     <Grid>
         <Border>
             <Border.Background>
-                <ImageBrush ImageSource="C:\Users\Dart\source\repos\WeatherApplication\Weather\Assets\Backgrounds\BackgroundError.jpg"></ImageBrush>
+                <ImageBrush ImageSource="/Assets/Backgrounds/BackgroundError.jpg"></ImageBrush>
             </Border.Background>
             <Grid>
                 <Button Click="LogOffErrorWindow" Background="#673AB7" Foreground="#E5EFF6" Margin="15" Content="Log off"  Width="75" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="10"></Button>

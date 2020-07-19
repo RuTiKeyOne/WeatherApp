@@ -15,12 +15,16 @@
 
   <ItemGroup>
     <None Remove="Assets\Assets1.png" />
+    <None Remove="Assets\Backgrounds\BackgroundCity.jpg" />
+    <None Remove="Assets\Backgrounds\BackgroundError.jpg" />
     <None Remove="Assets\WeatherIcons\WeatherCity.png" />
     <None Remove="Assets\WeatherIcons\WeatherHumidity.png" />
     <None Remove="Assets\WeatherIcons\WeatherPressure.png" />
     <None Remove="Assets\WeatherIcons\WeatherTemperature.png" />
     <None Remove="Assets\WeatherIcons\WeatherWind.png" />
     <None Remove="View\Assets.png" />
+    <None Remove="View\BackgroundCity.jpg" />
+    <None Remove="View\BackgroundError.jpg" />
     <None Remove="View\Photo0.png" />
     <None Remove="View\WeatherHumidity.png" />
     <None Remove="View\WeatherPressure.png" />
@@ -39,6 +43,8 @@
 
   <ItemGroup>
     <Resource Include="Assets\Assets.png" />
+    <Resource Include="Assets\Backgrounds\BackgroundCity.jpg" />
+    <Resource Include="Assets\Backgrounds\BackgroundError.jpg" />
     <Resource Include="Assets\WeatherIcons\WeatherCity.png" />
     <Resource Include="Assets\WeatherIcons\WeatherHumidity.png" />
     <Resource Include="Assets\WeatherIcons\WeatherPressure.png" />
